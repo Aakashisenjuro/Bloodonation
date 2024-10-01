@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Blood - BDMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blood Donation Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search_blood_banks.html">Search Blood Banks</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Request Blood</h2>
+            <form action="request_blood.php" method="POST">
+                <label for="blood_type">Blood Type:</label>
+                <input type="text" id="blood_type" name="blood_type" required>
+
+                <button type="submit">Request Blood</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blood Donation Management System. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Management System</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to custom styles -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animated-title">Blood Donation Management System</h1>
+            <nav>
+                <div class="nav-toggle" id="nav-toggle">&#x25BC;</div> <!-- Arrow Icon -->
+                <ul id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search Blood Banks</a></li>
+                    <li><a href="#">Request Blood</a></li>
+                    <li><a href="#">Organize Donation Programs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Welcome to the Blood Donation Management System</h2>
+                <p>Your platform for finding blood banks, requesting blood, and organizing blood donation programs.</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="feature">
+                    <h3>Search Blood Banks</h3>
+                    <p>Find blood banks based on location and blood type availability.</p>
+                </div>
+                <div class="feature">
+                    <h3>Request Blood</h3>
+                    <p>Submit a request for specific blood types and get responses quickly.</p>
+                </div>
+                <div class="feature">
+                    <h3>Organize Donation Programs</h3>
+                    <p>Join or create blood donation programs in your community.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Blood Donation Management System. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for toggling the navigation menu
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.textContent = navLinks.classList.contains('active') ? '▲' : '▼';
+        });
+    </script>
+</body>
+</html>
