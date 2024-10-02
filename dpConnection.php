@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost"; // Change if your DB is hosted elsewhere
-$username = "root"; // Your DB username
-$password = ""; // Your DB password
-$dbname = "blood_donation_db"; // Your DB name
+$servername = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$dbname = "blood_donation_db"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

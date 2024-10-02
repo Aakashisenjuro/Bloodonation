@@ -1,5 +1,6 @@
 <?php
-include 'db.php';
+include($_SERVER['DOCUMENT_ROOT'] . '/Bloodonation/dbConnection.php');
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['name'];

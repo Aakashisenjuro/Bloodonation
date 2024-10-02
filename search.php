@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'dbConnection.php';
 
 $location = $_GET['location'] ?? '';
 $blood_type = $_GET['blood_type'] ?? '';
